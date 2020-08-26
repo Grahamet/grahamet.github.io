@@ -1,9 +1,9 @@
+# CSCI 362 Blog
 
+## Introduction
 
-
-You can use the [editor on GitHub](https://github.com/Grahamet/grahamet.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+My name is Ethan Graham.
+I am now a senior at Cofc. If campus opens and we can move into dorms I will be living in a historic house on Meeting St. 
 
 ### Markdown
 
