@@ -73,3 +73,74 @@ Brook’s [“No Silver Bullet”](http://bowringj.people.cofc.edu/classes/csci%
 For all the readings “An investigation of the Therac-25 Accidents” by Nancy Leveson and Clark S. Turner, “After Stroke Scans, Patients Face Serious Health Risks” by Walt Bogdanich, “Motor Vehicles Increasingly Vulnerable to Remote Exploits by FBI Public Service Announcement, “The Role of Software in Spacecraft Accidents” by Nancy G Leveson, “Who Killed the Virtual Case File?” by Harry Goldstein, “FBI Sentinel project is over budget and behind schedule, says IG auditors” by Jeff Stein, “Years Late and Millions Over Budged, FBI’s Sentinel Finally On Line” by Damon Poeter, “FBI’s Sentinel System Still Not In Total Shape to Surveil” by Robert N.Charette, and Chapter 12 & 13 in “Software Engineering” by Ian Sommerville each involve investigations into a variety of software-related accidents. These accidents range from potential threats towards hacking of modern automobiles to spacecraft crashes. Although each article or text vary, they all share a common theme and viewpoint about the importance of proper safety and security techniques needed to implement and design dependable software. Out textbook in Chapter 12 introduces to us the concept of safety-critical systems: “the system should never damage people of the system’s environment, irrespective of whether or not the system conforms to its specifications” (Sommerville 341 global edition). Sommerville also says that a dependable system is secure if it protects the confidentiality of its information, and the information cannot be changed by an unauthorized person, and the system is always available for its intended use. Having flaws in a systems security can have drastic effects in regards to safety. The FBI’s Public Service Announcement on the cyber security threats to modern automobiles is an example of how having system security flaws can affect safety. Each article we had to read go into detail about how software systems were incorrectly implemented and what accidents resulted because of this, and what could have been done differently to avoid the sometimes devastating accidents. 
 The common themes between each articles was bad software design management where the developers didn’t keep everything simplified but rather reused old code, another common theme was a lack of communication and understanding of the program during testing and development, and general self-approval and time-integrity trade offs which results in the code functioning in less than optimal ways. The biggest commonality is that the information on these accidents that happen in the articles are very hard to find which leads to people having a false hope and false belief that they are safe and secure.
 Leveson wrote a couple articles on software related accidents that resulted in deaths or serious illnesses. Tuner helped Leveson write an article that focused on patients exposed to the Therac-25, a radiation therapy system released in the 1980’s. Leveson and Turner point out that Therac-20 and older model was reused even though Therac-25 was designed to have more responsibility for maintain safety than its older models. Leveson also goes into details on software related accidents in spacecraft where code from the Ariane501 which crashed was reused from and older model Ariane 4 with redundant functions left in. 
+
+
+## Hw5: Chapter 4 and reflections
+
+**4.5) Using the technique suggested here, where natural language descriptions are presented in a standard format, write plausible user requirements for the following functions: **
+
+**- An unattended gas pump system that includes a credit card reader.  The customer swipesthe card through the reader, then specifies the amount of fuel required.  The fuel is delivered and the customer's account debited.**
+  * Function -> Charge the customer for the amount of gas specified and dispense the specified amount of gas.
+  * Description -> Computes the required amount of money needed for the specificed amount of gas.
+  * Inputs -> The specified fuel amount and the credit card information
+  * Source -> User interace system on the pump and the credit card reader
+  * Output -> The specified fuel amount and the reciept with the required money amount on it
+  * Destination -> The car and the bank
+  * Action -> Customer will input the required amount of fuel they need, the program will dispense the amount and calculate the amout of money required, the customer will put their card into the card reader, when processed and accepted the card reader will dispense a recipt.
+  * Precondition -> There must be fuel in the pump, the card must be vaild and have funds
+  * PostCondition -> The fuel in the pump must be subtracted, the card must be charged, and the specified amount of gas must be dispensed.
+
+**- The cash-dispensing function in a bank ATM.**
+  * Function -> Dispense correct amount of cash
+  * Description -> verify cardholders pin and dispense the requested amount of cash
+  * Inputs -> amount of cash wanted, card number, pin number
+  * Source -> User Interface, card reader, pin pad
+  * Outputs -> Cash, receipt, card
+  * Action -> User inputs card, enters pin, user selects amount of cash they want, Checks to see if requested funds is available to dispense in users account, Atm checks to requested funds is available to dispense from the machine, atm dispenses the cash if previous checks pass, returns card, dispenses receipt.
+  * Precondition -> User must have requested funds in account, Atm must have requested funds, user must have a vaild card, and user must enter a valid pin.
+  * Postcondition -> Amount of cash in atm and users bank account must be subtracted, transaction must be recorded.
+
+**- In an internet banking system, a facility that allows customers to transfer funds from oneaccount held with the bank to another account with the same bank.**
+  * Function -> Transfer money specified from bank account to another that belongs to the same bank.
+  * Description -> Transfer funds from one account to another 
+  * Inputs -> Username, password, Bank account being transfered, bank account transfering money from, amount to transfer, and a check to make sure they want to do the transfer.
+  * Source -> Reading of amount to be transfered, 
+  * Outputs -> cash, and receipt
+  * Action -> User logs onto the banking system, username and password get verified, user must chose the account they are transferring money from, user selects destination account for the money, user selects amount to be transfered, gets a conformation they want to proceed with transfer, funds get transfered if they agree to transfer, user gets sent a email receipt with the transfer details and if it went through successfully/unsuccessfully.
+  * Precondition -> User must log into bank system with valid user information, user must have funds to transfer in their account, recieving account must be valid and part of the same bank.
+  * Postcondition -> receiving account add transfered amount, original account subtracts transfered amount. 
+  
+**4.6 Suggest how an engineer responsible for drawing up a system requirements specifications might keep track of the relationships between functional and non-functional requirements.**
+
+The engineer could use some sort of visual system to differentiate between non-functional and functional requirements. They could also use UML to display a graphical model such as a diagrm, sequence or charts. Having different visuals could help the engineer see the differences between requirements and how they affect the system as a whole which will then lead to being able to clearly define the specifications of the project for other engineers, clients and himself/herself.
+
+**4.7 Using your knowledge of how an ATM is used, develop a set of use cases that could serve as a basis for understanding the requirements for an ATM system.**
+
+  1.  User inserts debit card into the ATM
+  2.  ATM reads card; asks for pin number.
+  3.  User inputs correct pin number.
+  4.  ATM verifies pin number; ATM asks user for what they want to use the ATM for:
+      * Withdrawal OR
+      * Balance check OR
+      * Deposit
+  5. User chooses an option.
+      * User enters amount to withdraw OR
+      * User asks for account balance OR
+      * User inputs amount to deposit
+  6. ATM
+      * Checks if there are enough funds to withdraw that amount from and, if there are releases money to user OR
+      * Print receipt for account balance OR
+      * Accepts deposit and prints receipt
+  7. User receives debit card back. Transaction over. 
+  
+  
+  
+## Hw6: Chapter 2
+
+**Suggest the most appropriate generic software process model that might be used as a basis for managing the development of the following systems. Explain your answer according to the type of system being developed:
+
+  * **A sytem to control antilock braking in a car-** The waterfall process is usually adapted for safety-critical systems because of the higher amount of analysis and documentation require before implementation, because a major part of finalizing the software is testing i think the waterfall model is the most appropriate generic software proccess
+  
+  * **A virtual reality system to support software maintenance-** Software maintenance is best done through versions and updates over long amounts of time, which would lead to the incremental development process as the most appropriate.
+  * **A university account that replaces an existing system-** The integration and configuration process seems like it would be the best choice for a new account system as it takes reusable components and integrates them into a new system setting
+  * **An interactive travel planning system that helps users plan journeys with the lowest environmental impact-** I think this would be the incremental development process as a planning system would need to be adaptable and have multiple versions.
