@@ -137,7 +137,7 @@ The engineer could use some sort of visual system to differentiate between non-f
   
 ## Hw6: Chapter 2
 
-**Suggest the most appropriate generic software process model that might be used as a basis for managing the development of the following systems. Explain your answer according to the type of system being developed:
+**Suggest the most appropriate generic software process model that might be used as a basis for managing the development of the following systems. Explain your answer according to the type of system being developed:**
 
   * **A sytem to control antilock braking in a car-** The waterfall process is usually adapted for safety-critical systems because of the higher amount of analysis and documentation require before implementation, because a major part of finalizing the software is testing i think the waterfall model is the most appropriate generic software proccess
   
