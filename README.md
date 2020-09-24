@@ -154,7 +154,7 @@ The engineer could use some sort of visual system to differentiate between non-f
 
 **Develop a sequence diagram showing the interactions involved when a student registers for a course in a university. Courses may have limited enrollment, so the registration process must include checks that places are available. Assume that the student accesses an electronic course catalog to find out about available courses.**
 
-! 5.5 image](https://github.com/Grahamet/grahamet.github.io/blob/master/Images/5.5.png) 
+![5.5 image](https://github.com/Grahamet/grahamet.github.io/blob/master/Images/5.5.png) 
 
 **5.7 Based on your experience with a bank ATM, draw an activity diagram that models the data processing involved when a customer withdraws cash from the machine.**
 
