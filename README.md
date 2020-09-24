@@ -144,3 +144,7 @@ The engineer could use some sort of visual system to differentiate between non-f
   * **A virtual reality system to support software maintenance-** Software maintenance is best done through versions and updates over long amounts of time, which would lead to the incremental development process as the most appropriate.
   * **A university account that replaces an existing system-** The integration and configuration process seems like it would be the best choice for a new account system as it takes reusable components and integrates them into a new system setting
   * **An interactive travel planning system that helps users plan journeys with the lowest environmental impact-** I think this would be the incremental development process as a planning system would need to be adaptable and have multiple versions.
+
+
+## Hw7: Chapter 5 & 6
+
