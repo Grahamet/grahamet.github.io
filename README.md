@@ -163,3 +163,43 @@ The engineer could use some sort of visual system to differentiate between non-f
 **5.8 Draw a sequence diagram for the same system. Explain why you might want to develop both activity and sequence diagrams when modeling the behavior of a system.**
 
 ![5.8 image](https://github.com/Grahamet/grahamet.github.io/blob/master/Images/5.8.png)
+
+## Hw9: Chapter 8 and reflections
+
+**Write a scenario that could be used to help design tests for the wilderness weather station system**
+
+Tom works for a wilderness weather station out in Kells, Northern Ireland. He spends a lot of time at work because he often gets snowed in and has to spend the night. This gives him plenty of time to test the weather station software. First, he has to log onto the system using his weatherman username and password. 
+
+Tom usually first checks the status of the satellitle communcations (SatComm) and the regular communications (Commslink) link to ensure that the summary is being collected from up-to-date data. He then will request a weather data summary report from satellite communications and receive an acknowledgement of this request. 
+
+Tom knows the weather station will send him a report if it is unable to collect data via the Commslink and it will also acknowledge that he requested a report. Always alone and drinking coffee, Tom looks forward to receiving the summary report of the weather data to give him something to do on long snowy days at work. 
+
+**A common approach to system testing is to test the more important functionalities of a system first, followed by the less important functionalities until the testing budget is exhausted. Discuss the ethics involved in identifying what “more important” means.**
+
+This is not a very ethical approach. Testing is time-intensive and often leads to changes in software as the tests reveal issues. The testing period should have plenty of time devoted to it to ensure that a customer is getting, if not a totally bug-free product, at least a product that has undergone extensive testing before it was deemed appropriate to receive money for. A testing budget should also be a little bit larger because of its importance to a project. 
+
+If a software company develops and delivers software to an external customer without putting in significant testing time, then how can the software company be sure that they will get that customer back? A company can only ensure returning customers if they have put the time and effort into making their product the best it can be for the requirements asked for and tested it effectively to the best of their abilities.
+
+## Hw10: Chapter 15
+
+**The reuse of software raises a number of copyright and intellectual property issues. If a customer pays a software contractor to develop a system, who has the right to reuse the developed code? Does the software contractor have the right to use that code as a basis for a generic component? What payment mechanisms might be used to reimburse providers of reusable components? Discuss these issues and other ethical issues associated with the reuse of software.**
+
+I think there will forever be a debate between groups who want to share everything and groups who want acknowledgement of their achievements and therefore the rights to their own software. The former group will argue that they have built working software and its reuse is important in order to save time and expenditure on creating more software that works the same way in a future product. The latter group will argue that they have the sole right to reuse software that they developed.
+
+## Hw11: Chapter 9
+
+**Briefly describe the three main types of software maintenance. Why is it sometimes difficult to distinguish between them?**
+  
+  1. Bug Fixing - this is repairing faults found in the software after it has been launched. The bugs are there possibly because testing was not as thorough as it should have been or clients have exposed bugs by using the software in unexpected ways. Coding errors, design errors, and requirement errors are the least, middle, and most expensive to correct, respectively. 
+   2. Modifying software to work in a new environment - when the hardware or platform that the system was built to run on changes, then the software must change as well in order to be compatible and avoid being obsolete.
+    Implementing new or changed requirements - software must be updated or changed so that it conforms with any new requirements. 
+
+It is sometimes difficult to distinguish between the different types of maintenance because they are often given different names and also because faults that arise within a system can maybe have overlapping maintenance requirements.
+
+**Do software engineers have a professional responsibility to develop code that can be easily maintained even if their employer does not explicitly request it?**
+
+Yes. Software development and maintenance are not separate activities. It is important to keep in mind how a system will need to be maintained if, for example, it is a system that is meant to last a long time and will have a revolving-door of developers working on it. A software developer who cares about the quality of their work will want to reduce the future cost of maintaining their software. According to the textbook, they can do this by using "Good software engineering techniques such as precise specification, test-first development, the use of object-oriented development, and configuration management" to help reduce the cost of future maintenance (Sommerville 259).  The ACM Software Engineering Code of Ethics says that a software engineer must "promote an ethical approach to the practice of the profession". This can only by done by carefully constructing software that is in the best interests of the employer (even if they do not require it), the client (who will have to pay for future maintenance), and the public (who want to use the software).
+
+## Hw12: Chapter 16
+
+**Design the interfaces of components that might be used in a system for an emergency control room. You should design interfaces for a call-logging component that records calls made, and a vehicle discovery component that, given a post-code (zip code) and an incident type, finds the nearest suitable vehicle to be dispatched to the incident.**
