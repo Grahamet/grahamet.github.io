@@ -204,4 +204,4 @@ Yes. Software development and maintenance are not separate activities. It is imp
 
 **Design the interfaces of components that might be used in a system for an emergency control room. You should design interfaces for a call-logging component that records calls made, and a vehicle discovery component that, given a post-code (zip code) and an incident type, finds the nearest suitable vehicle to be dispatched to the incident.**
 
-![CallLogger image](https://github.com/Grahamet/grahamet.github.io/blob/master/Images/Call Logger.png)
+![CallLogger image](https://github.com/Grahamet/grahamet.github.io/blob/master/Images/Call%20Logger.png)
