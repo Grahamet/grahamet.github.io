@@ -207,3 +207,75 @@ Yes. Software development and maintenance are not separate activities. It is imp
 ![CallLogger image](https://github.com/Grahamet/grahamet.github.io/blob/master/Images/Call%20Logger.png)
 
 ![Vehicle image](https://github.com/Grahamet/grahamet.github.io/blob/master/Images/vehicle.png)
+
+## Hw13: Chapter 17 
+
+**Your company wishes to move from using desktop applications to accessing the same functionality remotely as services. Identify three risks that might arise and suggest how these risks may be reduced.**
+
+  1. **Security** - there is definitely a risk that the information needed for the company will be less secure if it is able to be accessed remotely. This risk may be reduced by implementing extra security precautions as well as decreasing accessibility of information to only certain parties.
+  2. **Failure Managment** - if the system is available remotely as a service, it becomes more complicated with many more parts involved in the success of the system. The system will rely on all components (the computer, the server, access to the server) functioning properly in order to work. So there is a higher risk that the system will fail because there are more components that need to work together.
+  3. **Transparency** - because of the different components that have to work together, there is a higher risk that users will be aware of flaws in the system and inconsistencies in the software.
+  
+## Hw14: Chapter 18
+
+**Define an interface specification for the Currency Converter and Check credit rating services services shown in Figure 18.7.**
+
+![currency converter and credit rating image](https://github.com/Grahamet/grahamet.github.io/blob/master/Images/Screenshot%202020-12-04%20191112.png)
+
+## Hw15: Chapter 19
+
+**Why is it impossible to infer the emergent properties of a complex system from the properties of the system components?**
+
+The emergent properties of a system characterize the entire system - all of a system's components' properties are included in this as well as their ability to work together. The emergent properties include properties such as performance, reliability, usability, safety, and security. A component can often be considered reliable, safe, etc. when functioning on its own, but when it is a part of a system, those properties are not enough. Emergent properties encompass component properties as well as defining whether the components work together or not. It is difficult to distinguish emergent properties of a complex system from the system components because the emergent properties depend on the components working as expected.
+
+## Hw16: Chapter 20
+
+**You work for a software company that has developed a system that provides information about consumers and that is used within a SoS by a number of other retail businesses. They pay you for services used. Discuss the ethics of changing the system interfaces without notice to coerce users into paying higher charges. Consider this question from the point of view of the company's employees, customers, and shareholders.**
+
+I am sure from the shareholder perspective, they would not mind if the users were not informed of the increase in price, but this is completely unethical. A software company has a lot of power when it comes to hiding things from the public and from their customers, but they should not take advantage of this. The employees of the software company might feel uncomfortable with having to make this unethical change to the system, but will probably be unlikely to speak up in case they lose their jobs. Customers, being unaware of the change, will not have an opinion UNTIL (because it is bound to come out eventually) it is found out that the software company increased prices without notifying consumers. Then the shareholders will pretend they had no idea and blame it on the developers. The employees will probably be out of a job anyway once the consumers find out about everything, and then those employees have a stain on their record for the rest of their careers. So, all in all, it is a terrible idea, both for ethical reasons and practical ones.
+
+## Hw17: Team Progress 1
+
+Our team, [“Team-Gr8”](https://github.com/csci-362-01-2020/Team-Gr8) is doing really well. A detailed description of the progress we have done so far can be found on our [“wiki”](https://github.com/csci-362-01-2020/Team-Gr8/wiki) page. We have completed the three deliverables that we have been assigned and even had our automated testing framework done as early as deliverable two as we found that once we had that fully working it was easier to set up our testcases from then onwards.
+
+
+**Our current Script**
+![script inmage](https://github.com/Grahamet/grahamet.github.io/blob/master/Images/Screenshot%202020-12-04%20192732.png)
+
+**Our current test cases**
+![testcaseImage](https://github.com/Grahamet/grahamet.github.io/blob/master/Images/Screenshot%202020-12-04%20193853.png)
+
+Our current goal for our next step is to be able to send our outputs to an html file so that we can present our data through the browser in a neat format such as a table.
+
+## Hw18: Chapter 21 and Chapter 22
+
+**22.6 Fixed-price contracts, where the contractor bids a fixed price to complete a system development, may be used to move project risk from client to contractor.  If anything goes wrong, the contractor has to pay. Suggest how the use of such contracts may increase the likelihood that product risks will arise.**
+
+Fixed-price contracts are attractive to potential software development clients because it guarantees them a predetermined budget and also allows for all the risk to be taken up by the contractor. Fixed-price contracts mean that the contractor takes on any extra costs that could incur because of changes in requirements or technology that affect the timeline for the project's completion. While this may be a benefit for the customer, who will have more power to change their mind and project requirements, it is much more likely that product risks will arise because of bad communication, changes in plans, and off-schedule development. And all of these problems will be up to the contractor to take care of, which does not seem like a smart business plan.
+
+## Hw19: Chapter 23
+
+**Figure 23.14 shows the task durations for software product activities. Assume that a serious, unanticipated setback occurs, and instead of taking 10 days, task T5 takes up to 40 days. Draw up new bar chart showing how the project might be reorganized.**
+
+![project reorganization](https://github.com/Grahamet/grahamet.github.io/blob/master/Images/Screenshot%202020-12-04%20193613.png)
+
+## Hw20: Team Progress 2
+
+Our team currently is progressing really well. A detailed report of what our progress is can be found on our wiki in [“Deliverable #4”]https://github.com/csci-362-01-2020/Team-Gr8/wiki/Chapter-4).
+
+Currently we have:
+
+  * 25 working test cases
+  * A working script that can run a single test case
+  * A working script that calls our other script to run through all our testcases in our TestCase folder
+  * Brower viewable results 
+  
+I believe we have worked well as a team so far with constant communication and fairly distributed work. I believe that we have been fully prepared for each deliverable with working code that either meets or exceeds whats needed to be done. We are currently prepared to move on to our next deliverable where we insert 5 faults into our code and demonstrate where they are and how many testcases they will affect. We will aslo have our final report, poster and presentataion available soon.
+
+## Hw21: Chapter 24
+
+**Explain why program inspections are an effective technique for discovering errors in a program. What types of error are unlikely to be discovered through inspections?**
+
+Program inspections ensure that fresh eyes read over code that could have defects in it. Sometimes it is hard to find errors in your own code if you have spent hours and hours writing it - it really helps to get a second opinion, especially if it is in the context of a program inspection, where the team members know what the code needs to do and there is a moderator who can ensure that criticism is appropriate and unbiased. When programming for a team, it is fair that the team will get to review each others code before the code is put to use - this enables everyone to be a part of the work, and everyone is culpable for any failures. 
+
+I think errors that are unlikely to be discovered through inspections would not be in the functionality of the code itself, but maybe in how that component works with others when the program as a whole is run. This is hard to check until the team's release of the code has been combined with other working parts of the software. But ensuring that the code works as expected in a small capacity will go a long way in getting it to work effectively with the software as a whole.
