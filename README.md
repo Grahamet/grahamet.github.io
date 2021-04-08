@@ -103,4 +103,25 @@ A test suite is a collection of unit tests and the suite shuld have one unit tes
 
 A bug refers to a "defect or a flaw" that causes your code to stop working and can be seen by either a client or user. Debugging is the process of finding and fixing these bugs to make everything work better. There are many different ways to track bugs depending on where you are coding. For our project we are using Github which allows us to see what bugs have been reported to be fixed. A key part to bugs is that they have to be reported and relies on "full participation of users and developers to keep the code base up to date and reasonably free of errors"(155). 
 
-# 
+# Chapter 6
+
+Chapter 6 talks about the design of databases as part of HFOSS projects and how they are a major component of software systems. Having taken Dr. Potherings CSCI 332 Database concepts course in my junior year it helped me better understand what was going on in this chapter. Without that class I would have very little clue as to what is happening int the chapter in regards to database queries, vocabulary, and the syntax of SQL or other query languges that were in this chapter. One of the primary issues that were talked about in the chapter was about normalization and making sure databases are consistent and take the least amount of energy to find the needed data. 
+
+A key concept that was also discussed involved the vocabulary, or the database principles of databases. Databases are all just about relations between each other and each of those relations are comprised of special attributes and connections to other attributes on other tables. The whole purpose of databases are to keep track of each of those relations between each component and being able to retrieve the data in those relationships.
+
+Querying is another key concept to databases. A query is a way to retrieve add, delete or update information in a database, and it is probably the most important part to database coding languagues as they are the main way to get information in, and out of a database. 
+
+# Chapter 9
+
+Chapter 9 mainly talks about operational support of a project after installing it on a client's server. Once it is on the clients server it is naturall for it not to be free of bugs. This basically means that just because its on the clients server doesn't mean the development process will stop. In fact once its on the clients server your product will need support, discussions, and continuous work on it so that it doesn't break. Since the project will be released to anyone who either has no knowledge of the software or similar software you are going to need to have ways to help them navigate the program, or to people who have experience with the similar software who will try to break it and use it in unintended ways.
+Since there are people who are going to try and break, or use the software in unintended ways it is important to have someone who is ready to work on the bugs whene they appear, whether this be a volunteer who knows how to fix it, or someone who is willing to learn how to fix the bug. 
+It is also important to understand some concepts about client centered software development such as, Transitioning to professional support, project evaluation and code release, software maintenance as a community activity, creating a forum, and evolving into a democratic meritocracy. Each of these are important to know when getting into client centered software development especially in open source projects.
+
+# Metting Charleston
+
+March 19th i attended the College of Charleston's 15th Annual Alumni Symposium with the topic "Telecommuting: Challenges and Opportunities" hosted over zoom. It was emceed by Sophia Frankel who is a member of our group for this class.
+
+There were three speakers who attended and shared their information and knowledge with us. Meagan Gould is a full stack engineer at Soteria and Paul Dierksheide is a product designer at Cvent. And Phill Kramp who is an engineer at Red Hat. 
+
+The three of them discussed with us about networking, mentors and how to get the most of them at both workspaces and at school, while also how to stay sane while working in a remote setting. Phill brought up and interesting concept where he had set up what he called "Core hours" where he was only expected to be on and available for a certain length of time throughout the day which typically wasn't the full work day. This way he was able to associate times where he was having to work at home without the constant need to be at his computer and be doing work. 
+Another main part of the discussions that were brought up were the discussions around learning on the job. They admitted that their classwork at cofc had prepared them well. Paul did have an issue that there weren't enough CITA classes available that directly helped him with what he does now. 
